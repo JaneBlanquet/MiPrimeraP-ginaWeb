@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+h2 {
+    font: 14px bold sans-serif
+}
+
+header, nav, section, article, aside, footer {
+    display:block
+}
+
+.header {
+    background: #CB5A7C;
+    border: 1px solid grey;
+    padding: 28px;
+}
+.header h1 {
+    font: 30px bold sans-serif;
+}
+
+.menu {
+    background: #CB5A7C;
+    padding: 8px;
+}
+
+.menu li {
+    list-style: none;
+    padding: 5px;
+    font: bold 14px sans-serif;
+    display: inline-block;
+}
+.imagenes {
+    margin: 0 20px;
+}
+.bloque {
+    background: #9980FA;
+    margin: 20px;
+
+}
+.footer {
+    background: #CB5A7C;
+    border: 1px solid grey;
+    padding: 16px;
+}
+
+.menufooter li {
+    list-style: none;
+    padding: 5px;
+    font: bold 14px sans-serif;
+    display: inline-block;
+  
+}

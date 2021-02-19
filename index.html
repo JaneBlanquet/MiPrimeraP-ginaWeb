@@ -1,24 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi primera pagina HTML</title>
+    <title>Escritoras mexicanas</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Titulo</h1>
-    <h2>Subtitulo</h2>
-    <h4>Subtitulo</h4>
-    <h6>Subtitulo</h6>
+    <header class="header">
+        <h1>Escritoras mexicanas</h1>
+    </header>
+    <div>
+        <nav class="menu">
+            <ul>
+                <li>Catálogo</li>
+                <li>Reseñas</li>
+                <li>Colaboraciones</li>
+                <li>Contacto</li>
+            </ul>
+        </nav>
+    </div>
 
-    <img src="img/PILARES.jpeg">
+    <section class="imagenes">
+        <img src= "images/amparo.jpg" height= "150"/>
+        <img src= "images/inésarredondo.jpg" height="150"/>
+        <img src="images/elenagarro.jpg" height="150"/>
+        <img src="images/rosariocastellanos.jpg" height="150"/>
 
-    <a href="https://www.google.com/"> Página Google  </a>
+    </section>
+    <section class=bloque>
+        <article>
+            <hgroup>
+                <h1>¡Bienvenidxs!</h1>
+            </hgroup>
+            <p>Escritoras mexicanas es un catálogo digital de escritoras en el que se pueden realizar búsquedas por nombre o título de obra.
 
-    <p>Esto es un párrafo de muestra esto 
-        <br>es un arroba @</p>
-    <br>este es un saaaalto de linea
-    Más párrafo de ejemplo
-    <img src="img/git.png">
+                Buscamos difundir la literatura escrita por mujeres en México, algunas de sus obras serán de libre acceso.
+                
+                En Colaboraciones se publicarán semanalmente obras de mujeres que deseen participar en la página. Envía tu texto y con gusto lo publicamos.</p>
+        </article>    
+    </section>
+    <aside>
+        <blockquote>
+            Mensaje 1
+        </blockquote>
+
+        <blockquote>
+            Mensaje 2
+        </blockquote>
+    </aside>
+
+    <footer class="footer">
+        <div>
+            <nav class=menufooter>
+                <ul>
+                    <li>¿Quiénes somos?</li>
+                    <li>¡Participa</li>
+                    <li>Contacto</li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
 </body>
 </html>
